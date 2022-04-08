@@ -6,4 +6,4 @@
 Contributions for improvements or new features are welcome :)
 
 ## License
-This repo is available under the [MIT license](LICENSE.md).
+This repo is available under the [MIT license](LICENSE).
