@@ -1,0 +1,47 @@
+*{
+    color: gray;
+}
+
+body{
+    background-color: #d1d1d1;
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+input{
+    height: 30px;
+    width: 50px;
+    margin-top: 30px;
+    display: inline-flex;
+    font-size: medium;
+}
+
+div{
+    width: 350px;
+    height: 220px;
+    background-color: white;
+    overflow: visible;
+    overflow-wrap: break-word;
+}
+
+::placeholder{
+    text-align: center;
+    font-size: medium;
+}
+
+button{
+    width: 260px;
+    height: 30px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+p{
+    margin: 15px;
+}

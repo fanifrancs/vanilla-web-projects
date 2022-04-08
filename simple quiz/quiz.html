@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple JS quiz app">
+  <title>Simple Quiz</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./favicon.png">
+</head>
+<body>
+
+  <h1 class="center3" id="greeting2"></h1>
+
+  <script>
+    var candName = localStorage.getItem('candName');
+    document.getElementById('greeting2').innerHTML = 'Hello ' + candName;
+  </script>
+
+  <div class="center2">
+    <img class="center2" src="./img/img1.jpg" alt="">
+  </div><br>
+  
+  <div class="center">
+    <h2>One, Two</h2>
+    <input type="radio" name="q1" id=""><label for="">A big fat hen</label>
+    <input type="radio" name="q1" id="a1"><label for="">Buckle my shoe</label><br>
+    <input type="radio" name="q1" id=""><label for="">Knock at the door</label>
+    <input type="radio" name="q1" id=""><label for="">Pick up sticks</label>
+  </div><br>
+
+  <div class="center">
+    <h2>Three, Four</h2>
+    <input type="radio" name="q2" id=""><label for="">Buckle my shoe</label>
+    <input type="radio" name="q2" id=""><label for="">Lay them straight</label><br>
+    <input type="radio" name="q2" id=""><label for="">A big fat hen</label>
+    <input type="radio" name="q2" id="a2"><label for="">Knock at the door</label>
+  </div><br>
+
+  <div class="center">
+    <h2>Five, Six</h2>
+    <input type="radio" name="q3" id=""><label for="">Buckle my shoe</label>
+    <input type="radio" name="q3" id="a3"><label for="">Pick up sticks</label><br>
+    <input type="radio" name="q3" id=""><label for="">Go to school</label>
+    <input type="radio" name="q3" id=""><label for="">A big fat hen</label>
+  </div><br>
+
+  <div class="center">
+    <h2>Seven, Eight</h2>
+    <input type="radio" name="q4" id=""><label for="">Go to school</label>
+    <input type="radio" name="q4" id=""><label for="">Shoot your gun</label><br>
+    <input type="radio" name="q4" id=""><label for="">Pick up sticks</label>
+    <input type="radio" name="q4" id="a4"><label for="">Lay them straight</label>
+  </div><br>
+
+  <div class="center">
+    <h2>Nine, Ten</h2>
+    <input type="radio" name="q5" id=""><label for="">Knock at the door</label>
+    <input type="radio" name="q5" id=""><label for="">Buckle my shoe</label><br>
+    <input type="radio" name="q5" id=""><label for="">Go to school</label>
+    <input type="radio" name="q5" id="a5"><label for="">A big fat hen</label>
+  </div><br>
+
+  <div class="center">
+    <h2>Eleven, Twelve</h2>
+    <input type="radio" name="q6" id=""><label for="">A big fat hen</label>
+    <input type="radio" name="q6" id=""><label for="">Pick up sticks</label><br>
+    <input type="radio" name="q6" id="a6"><label for="">Go to school</label>
+    <input type="radio" name="q6" id=""><label for="">Shoot your gun</label>
+  </div><br>
+
+  <div class="center">
+    <h2>Thirteen, Fourteen</h2>
+    <input type="radio" name="q7" id=""><label for="">Lay them straight</label>
+    <input type="radio" name="q7" id=""><label for="">Go to school</label><br>
+    <input type="radio" name="q7" id="a7"><label for="">Shoot your gun</label>
+    <input type="radio" name="q7" id=""><label for="">Knock at the door</label>
+  </div><br>
+
+  <div class="center2">
+    <input type="button" id="submitBtn" class="btn" value="Submit" onclick="mark()">
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

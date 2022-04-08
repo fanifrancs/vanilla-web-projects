@@ -1,0 +1,32 @@
+body{
+    margin-top: 12em;
+    background-color: #1b1b1b;
+}
+
+button#pick{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    color: #202020;
+    background-color: #d4d3d3;
+    border: none;
+    cursor: pointer;
+}
+
+button#theme{
+    margin-bottom: 5px;
+    background-color: #ffffff;
+    color: #292828;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}
+
+textarea{
+    background-color: #333232;
+    color: #808080;
+    width: 300px;
+    outline: none;
+    border: none;
+    resize: none;
+}

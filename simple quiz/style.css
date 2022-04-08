@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&display=swap');
+*{
+    font-family: 'Bellota';
+}
+
+.center {
+    margin: auto;
+    width: 300px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(104, 31, 31);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.center2 {
+    margin: auto;
+    width: 300px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.center3 {
+    text-align: center;
+    margin: auto;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
+.input1{
+    margin: auto;
+    width: 300px;
+    height: 40px;
+    border: 2px solid rgb(226, 167, 3);
+    border-radius: 10px; 
+}
+
+::placeholder{
+    text-align: center;
+}
+
+.btn{
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    margin: auto;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btnull{
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    color: black;
+    font-size: large;
+    cursor: pointer;
+}
+
+.btn:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(to right, rgb(104, 31, 31) , rgb(12, 87, 31));
+}

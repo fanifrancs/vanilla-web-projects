@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body{
+    border: 5px solid gray;
+    max-width: 90%;
+    margin: 5px 5%;
+    padding: 10px;
+    font-family: 'Jost', sans-serif;
+}
+
+p#para1{
+    border-left: 3px solid gray;
+    padding-left: 5px;
+}
+
+h3{
+    color: #3498db;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    margin-bottom: 0;
+    font-family: 'Courgette', cursive;
+}
+
+h1{
+    color: #2c3e50 ;
+}

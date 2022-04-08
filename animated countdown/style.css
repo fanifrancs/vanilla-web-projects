@@ -1,0 +1,88 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    display: flex;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(117, 117, 117);
+}
+
+img{
+    width: 30px;
+}
+
+button#start{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+/* The animation code */
+@keyframes animate {
+    0%   {color: crimson;
+        }
+    25%  {
+        color: black;
+        font-size: 200px;
+    }
+    50%  {color: skyblue;}
+    100% {color: green;}
+}
+
+@keyframes animatei {
+    0%   {color:crimson;
+        }
+    25%  {
+        color: black;
+        font-size: 200px;
+    }
+    50%  {color: skyblue;}
+    100% {color: green;}
+}
+
+@keyframes animateii {
+    0%   {color: crimson;
+    }
+    25%  {
+        color: black;
+        font-size: 200px;
+    }
+    50%  {color: skyblue;}
+    100% {
+        color: green;
+    }
+}
+
+/* The element to apply the animation to */
+.demo {
+    text-align: center;
+    margin: auto;
+    color: crimson;
+    animation-name: animate;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+#demo{
+    text-align: center;
+}
+
+.demoi {
+    text-align: center;
+    margin: auto;
+    color: crimson;
+    animation-name: animatei;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+.demoii {
+    text-align: center;
+    margin: auto;
+    color: crimson;
+    animation-name: animateii;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}

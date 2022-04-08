@@ -1,0 +1,46 @@
+div.tile{
+    width: 30px;
+    height: 30px;
+    float: left;
+    background-color: gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.board{
+    width:380px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    display: flex;
+    background-color: aliceblue;
+}
+
+.brown{
+    background-color: brown;
+    transition: linear 0.5s;
+    width: 30px;
+    height: 30px;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.green{
+    background-color: rgb(20, 58, 36);
+    transition: linear 0.5s;
+    width: 30px;
+    height: 30px;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.yellow{
+    background-color: rgb(202, 188, 59);
+    transition: linear 0.5s;
+    width: 30px;
+    height: 30px;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

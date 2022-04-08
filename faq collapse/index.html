@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Francisco">
+  <meta name="description" content="Vanilla Web Project: FAQs collapsible display">
+  <title>FAQs</title>
+  <style>
+    *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .center {
+        margin: auto;
+        width: 70%;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid gray;
+    }
+
+    .center2 {
+        margin: auto;
+        width: 300px;
+        border: none;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .center3 {
+        text-align: center;
+        margin: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .showfaqans{
+        display: none;
+    }
+
+    @media only screen and (min-width: 1000px) {
+        .center {
+            cursor: pointer;
+        }
+    }
+  </style>
+
+</head>
+<body>
+
+  <h1 class="center3" id="heading">FAQs</h1>
+  
+  <div id="faq1" class="center" onclick="toggleFaq(this.id)">
+    <h3>Why shouldn't we trust atoms?</h3>
+    <p id="faq1a" class="showfaqans">Because they make up everything</p>
+  </div><br>
+
+  <div id="faq2" class="center" onclick="toggleFaq(this.id)">
+    <h3>What do you call someone with no body and no nose?</h3>
+    <p id="faq2a" class="showfaqans">Nobody knows</p>
+  </div><br>
+
+  <div id="faq3" class="center" onclick="toggleFaq(this.id)">
+    <h3>How many tickles does it take to tickle an octopus?</h3>
+    <p id="faq3a" class="showfaqans">Ten-tickles!</p>
+  </div><br>
+
+  <div id="faq4" class="center" onclick="toggleFaq(this.id)">
+    <h3>What's the object-oriented way to become wealthy?</h3>
+    <p id="faq4a" class="showfaqans">Inheritance</p>
+  </div><br>
+
+  <div id="faq5" class="center" onclick="toggleFaq(this.id)">
+    <h3>What is the center of gravity?</h3>
+    <p id="faq5a" class="showfaqans">v</p>
+  </div><br>
+
+  <script src="./app.js"></script>
+</body>
+</html>

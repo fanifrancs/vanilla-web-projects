@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&display=swap');
+body{
+    display: flex;
+    background-color: rgb(255, 234, 255);
+}
+
+h1{
+    font-size: 5em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: gray;
+    font-family: 'Pacifico', cursive;
+}
+
+button#add{
+   height: 35px;
+   width: 35px;
+   background-color: #cca3ca;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: none;
+   border-radius: 100%;
+   cursor: pointer;
+}
+
+div.container{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+li{
+    font-size: x-large;
+    font-family: 'Bellota', cursive;
+    cursor: pointer;
+}
+
+img.bin{
+    cursor: pointer;
+    width: 20px;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}

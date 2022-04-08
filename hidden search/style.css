@@ -1,0 +1,64 @@
+body {
+    background-color: brown;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+input {
+    height: 40px;
+    background-color: white;
+    border: none;
+    color: black;
+    margin: 0;
+    width: 0;
+    transition: 0.9s ease;
+    outline: none;
+}
+
+input:hover{
+    border: 2px solid brown;
+}
+
+input:focus{
+    border: 2px solid brown;
+}
+
+
+
+.inputtoggle {
+    width: 300px;
+    transition: 0.4s ease;
+}
+
+::placeholder{
+    color: brown;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+button{
+    height:40px;
+    width: 40px;
+    margin: 0;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+div{
+    display: flex;
+}
+
+img{
+    width: 1em;
+}

@@ -1,0 +1,25 @@
+img{
+    width: 30%;
+    margin: 1.66%;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img:hover{
+    transform: rotate(5deg);
+}
+
+h1{
+    margin: 0 1.66% 0 1.66%;
+    /* border-bottom: 3px dotted gray; */
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+@media screen and (max-width: 700px) {
+    img {
+      width: 45%;
+      margin: 1.66%;
+    }
+}

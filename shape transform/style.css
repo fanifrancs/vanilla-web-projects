@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&display=swap');
+
+*{
+    font-family: 'Bellota';
+}
+
+div#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+body{
+    margin-top: 190px;
+}
+
+h1{
+    text-align: center;
+}
+
+#info{
+    text-align: center;
+    margin-top: 2em;
+}
+
+.shape{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(235, 151, 43);
+    transition: 0.5s linear;
+    box-shadow: 5px 5px grey;
+}
+
+.circle{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(1, 112, 107);
+    transition: 0.5s linear;
+    box-shadow: 5px 5px grey;
+}
+
+.rec{
+    border-radius: none;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(165, 42, 104);
+    transition: 0.5s linear;
+    box-shadow: 5px 5px grey;
+}
+
+.parra{
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+    transform: skewX(-30deg);
+    transition: 0.5s linear;
+    box-shadow: 5px 5px grey;
+}
+
+.oval{
+    border-radius: 100%;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(147, 165, 42);
+    transition: 0.5s linear;
+    box-shadow: 5px 5px grey;
+}
