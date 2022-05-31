@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 body{
     display: flex;
 }
@@ -12,22 +13,16 @@ body{
     width: 370px;
     text-align: center;
     color: white;
-
 }
 
 #rgbdisp{
-    padding-top: 45px;
+    padding: 45px;
     font-size: larger;
 }
 
-#button{
-    font-family: Verdana;
-    border-radius: 10px;
-    height: 50px;
-    border: none;
-    width: 370px;
-    font-size: 20px;
-    background-image: linear-gradient(to right, crimson , rgb(192, 164, 3));
+h1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
 }
 
 input{
@@ -35,14 +30,8 @@ input{
     height: 30px;
 }
 
-#info{
-    border-radius: 10px;
-    height: 50px;
-    border: none;
-    width: 370px;
-    font-size: 20px;
-    color: rgb(255, 253, 253);
-    background-color: rgb(48, 48, 48);
-    font-family: Verdana;
-    font-size: medium;
+.info{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
 }

@@ -1,63 +1,81 @@
-h1{ color: rgb(45, 45, 245);
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size: 20px;}
+h1{
+    color: rgb(45, 45, 245);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
 
-p.identity{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-color: rgb(185, 179, 179); text-align: left;}
+p.identity{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(185, 179, 179); text-align: left;
+}
 
-input.identity{background-color:rgb(189, 184, 184);
-border: 1px solid white; width: 250px; height: 40px;
-border-radius: 5px; padding-left: 5px;}
+input.identity{
+    background-color:rgb(189, 184, 184);
+    border: 1px solid white; width: 250px; height: 40px;
+    border-radius: 5px; padding-left: 5px;
+}
 
-p.password{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(226, 218, 218); text-align: left;}
+p.password{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(226, 218, 218); text-align: left;
+}
     
-input.password{background-color:rgb(189, 184, 184);
+input.password{
+    background-color:rgb(189, 184, 184);
     border: 1px solid white;
-width: 250px; height: 40px;
-border-radius: 5px; padding-left: 5px;}
+    width: 250px; height: 40px;
+    border-radius: 5px; padding-left: 5px;
+}
 
-button.loginbutton{background-color: rgb(10, 103, 209);
-height: 35px;
-width: 255px;
-color: white;
-border: none;
-font-size: 16px;
-font-weight: bold;
-border-radius: 5px;}
+button.loginbutton{
+    background-color: rgb(10, 103, 209);
+    height: 35px;
+    width: 255px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
 
-p.or{color: whitesmoke;}
+p.or{
+    color: whitesmoke;
+}
 
-p.forgot{ color: rgb(10, 103, 209);
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size: 16px; text-align: left;}
+p.forgot{
+    color: rgb(10, 103, 209);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px; text-align: left;
+}
 
 .container{
     width: 80%;
     margin: auto;
 }
 
-p.or{text-align: center;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-color: black;}
+p.or{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
 
-.orr{
+button.newaccount{
+    background-color: rgb(3, 129, 52);
+    border: none;
+    color: white;
+    height: 35px;
+    width: 200px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+
+div.lang{
     width: 80%;
-    margin: auto;}
-
-button.newaccount{background-color: rgb(3, 129, 52);
-border: none;
-color: white;
-height: 35px;
-width: 200px;
-border: none;
-font-size: 16px;
-font-weight: bold;
-text-align: center;
-border-radius: 5px;}
-
-div.lang{width: 80%;
-    margin: auto;}
+    margin: auto;
+}
 
 ::placeholder{
     color:rgb(70, 66, 66);

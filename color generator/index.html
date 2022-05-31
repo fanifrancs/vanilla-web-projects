@@ -11,11 +11,14 @@
 </head>
 <body style="font-family: Verdana;">
   <div id="container">
-    <button id="button">Color Generator</button>
+    <h1>Color Generator</h1>
+
     <div id="colordisplay">
       <p id="rgbdisp">rgb(<span id="rdisp">0,</span><span id="gdisp"> 0,</span><span id="bdisp"> 0</span>)</p>
-    </div><br>
-    <button id="info">Drag the sliders below to see the effect</button><br><br>
+    </div>
+
+    <p class="info">Drag the sliders below to see the effect</p>
+    
     <label style="margin-left: 2.5%;" for="r">Red (<span id="rslider">0</span>)</label><br>
     <input id="r" type="range" min="0" max="255" value="0" oninput="func()"><br>
     <label style="margin-left: 2.5%;" for="r">Green (<span id="gslider">0</span>)</label><br>
