@@ -16,7 +16,7 @@ function addTodo() {
     } else {
         id++;
     }
-    let todo = prompt(`Enter todo. When done, press cancel.`);
+    let todo = prompt(`Enter todo, press ok. When done, press cancel.`);
     todo = todo.replace(/[<>]/g, '');
     if (todo === null) {
         getTodos();
@@ -31,10 +31,10 @@ function addTodo() {
         while (todo !==  null) {
             let idd = localStorage.getItem('t0d01d');
             idd++;
-            let toodo = prompt(`Enter todo. When done, press cancel.`);
+            let toodo = prompt(`Enter todo, press ok. When done, press cancel.`);
             toodo = toodo.replace(/[<>]/g, '');
             if (toodo === null) {
-                todo == null;
+                todo = null;
                 getTodos();
             } else {
                 todos.innerHTML +=
