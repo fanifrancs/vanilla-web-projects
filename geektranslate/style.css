@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0 5%;
+}
+
+body{
+    margin: 20px auto 0;
+    background-color: bisque;
+    max-width: 500px;
+}
+
+.container{
+    display: flex;
+}
+
+button{
+    float: right;
+    margin: 6px;
+    background-color: crimson;
+    border: none;
+    padding: 5px;
+    width: 65px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: gray;
+}
+
+textarea{
+    margin: 0 auto;
+    width: 100%;
+    resize: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+textarea:focus{
+    border: 1.5px solid crimson;
+    outline: none;
+}
+
+#geekoutput{
+    background-color: black;
+    color: #54FE55;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
