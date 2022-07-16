@@ -1,6 +1,6 @@
 let board = document.querySelector('div.board');
 
-for (let i = 0; i < 360; i++) {
+for (let i = 0; i < 187; i++) {
     board.innerHTML += '<div class="tile"></div>';
 }
 
