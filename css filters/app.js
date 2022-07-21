@@ -56,7 +56,7 @@ function howToUse() {
     alert(`${a} ${b} ${c}`);
 }
 
-//function below copies the filter code to clipboard
+// function below copies the filter code to clipboard
 function copy(param) {
     let code = codes[param];
     navigator.clipboard.writeText(code).then(
@@ -74,7 +74,7 @@ function copy(param) {
 const inputElement = document.querySelector("input");
 inputElement.addEventListener("change", handleFiles);
 
-//function below handles image upload
+// function below handles image upload
 function handleFiles() {
     const original = document.querySelector('.original');
     const imgs = document.querySelectorAll('.item');
