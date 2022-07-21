@@ -1,11 +1,11 @@
-let board = document.querySelector('div.board');
+let x, board = document.querySelector('div.board');
 
-for (let i = 0; i < 187; i++) {
+for (let i = 0; i < 300; i++) {
     board.innerHTML += '<div class="tile"></div>';
 }
 
 const classes = ['brown', 'green', 'yellow'];
-let tiles = document.getElementsByClassName('tile');
+let tiles = document.querySelectorAll('.tile');
 
 setInterval(() => {
     x = Math.floor(Math.random() * 3);
