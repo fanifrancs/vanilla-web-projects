@@ -1,5 +1,5 @@
 # Vanilla-Web-Projects
-20 vanilla javascript projects built by me.
+A collection of simple vanilla JavaScript projects which I built to enhance my coding skills.
 > [Project starter](https://fanifrancs.github.io/vanilla-web-projects/)
 
 ## Contributing
