@@ -1,0 +1,12 @@
+div {
+    margin: auto;
+    text-align: center;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.show{
+    display: none;
+}

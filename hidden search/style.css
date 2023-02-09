@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+input {
+    height: 35px;
+    background-color: white;
+    border: none;
+    color: black;
+    width: 0;
+    transition: 0.8s ease;
+    padding: 0;
+    outline: none;
+}
+
+input:hover, input:focus{
+    border: 2px solid brown;
+}
+
+.inputtoggle {
+    width: 300px;
+    transition: 0.4s ease;
+    padding: 5px;
+}
+
+button{
+    height:35px;
+    width: 35px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color: gray;
+}
+
+div{
+    display: flex;
+}

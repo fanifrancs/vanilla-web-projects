@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@700&family=Pacifico&display=swap');
+*{
+    color: gray;
+}
+
+.header{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+}
+
+h2{
+    font-family: 'Bellota', cursive;
+}
+
+#container{
+    display: flex;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+}
+
+.mole{
+    background-image: url(./mole.png);
+}

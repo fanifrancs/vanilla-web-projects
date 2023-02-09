@@ -1,0 +1,27 @@
+body {
+    background-color: #dfcd64;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    border: none;
+    margin: 5px;
+    background-color: #b8a331;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    border: 1px solid #b8a331;
+    color: #b8a331;
+}

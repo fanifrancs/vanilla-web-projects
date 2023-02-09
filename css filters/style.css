@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('./filters.css');
+
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+.footer{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    color: white;
+}
+
+span{
+    color: tomato;
+}
+
+label{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: #dd3444;
+    color: #f1f1f1;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    text-align: center;
+    color: white;
+    font-family: 'Bellota', cursive;
+    margin: 0;
+}
+
+#upload-photo{
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+body{
+    display: grid;
+    background-color: rgb(49, 48, 48);
+}
+
+button{
+    margin: 10px auto;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: tomato;
+    color: white;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: url('./image.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.original{
+    height: 130px;
+    width: 130px;
+    margin: 10px auto;
+    border-radius: 5px;
+    background-image: url('./image.jpeg');
+    transform: rotate(5deg);
+    cursor: pointer;
+    border: 2px solid azure;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

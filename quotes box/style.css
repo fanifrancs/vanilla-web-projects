@@ -1,0 +1,28 @@
+*{
+    color: gray;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0bb49;
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+#quotebox{
+    width: 350px;
+    background-color: white;
+    padding: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#caption{
+    font-family: cursive;
+}

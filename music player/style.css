@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&display=swap');
+body{
+    display: flex;
+    background-color: bisque;
+}
+
+.container{
+    margin: 70px auto 0;
+}
+
+.btncontainer{
+    display: flex;
+}
+
+.buttons{
+    margin: 0 auto;
+}
+
+p{
+    text-align: center;
+}
+
+p#title{
+    font-size: x-large;
+    margin-bottom: 5px;
+}
+
+p#artiste{
+    font-family: 'Bellota', cursive;
+    margin-top: 0;
+}
+
+button{
+    border: none;
+    background-color: bisque;
+    font-size: x-large;
+    color: gray;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:nth-of-type(1), button:nth-of-type(3){
+    visibility: hidden;
+}
+
+button:nth-of-type(2){
+    font-size: 3em;
+}
+
+.songimg{
+    width: 270px;
+    height: 270px;
+    border-radius: 100%;
+    background-size: contain;
+    background-color: gray;
+    margin: 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    animation: rotate 3s linear infinite;
+    animation-play-state: paused;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.centre{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: whitesmoke;
+}
