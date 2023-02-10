@@ -54,7 +54,7 @@ const container = document.querySelector('.container');
 for (let i = 0; i < 42; i++) {
     let k = i + 1;
     container.innerHTML += 
-    `<div id="filter${k}" class="item" ></div>`;
+    `<div id="filter${k}"></div>`;
 }
 
 const divs = document.querySelectorAll('.container div');
