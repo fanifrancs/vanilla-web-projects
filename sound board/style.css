@@ -18,6 +18,7 @@ button {
     margin: 5px;
     background-color: #b8a331;
     color: white;
+    cursor: pointer;
 }
 
 button:hover {

@@ -76,6 +76,8 @@ function playNpause() {
         music.play();
         controls[1].innerHTML = '<i class="fa-solid fa-pause"></i>';
         songImg.style.animationPlayState = 'running';
+        title.innerText = songs[count].name;
+        artiste.innerText = songs[count].artiste;
         show();   
     } else {
         music.pause();
