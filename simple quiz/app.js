@@ -1,10 +1,10 @@
 const quizData = [
     {
-        question: 'Grand Central Terminal, Park Avenue, New York is the world\'s',
-        a: 'largest railway station',
-        b: 'highest railway station',
-        c: 'longest railway station',
-        d: 'None of the above',
+        question: 'Node.js runtime environment is written in',
+        a: 'C++',
+        b: 'C',
+        c: 'C#',
+        d: 'JavaScript',
         correct: 'a'
     },
     {
@@ -24,35 +24,35 @@ const quizData = [
         correct: 'a'
     },
     {
-        question: 'For galvanizing iron which of the following metals is used?',
-        a: 'Aluminium',
-        b: 'Copper',
-        c: 'Lead',
-        d: 'Zinc',
+        question: 'The following are scripting languages except?',
+        a: 'Python',
+        b: 'JavaScript',
+        c: 'PHP',
+        d: 'Java',
         correct: 'd'
     },
     {
-        question: 'Hockey was introduced in the Asian Games in',
-        a: '1958 in Tokyo',
-        b: '1962 in Jakarta',
-        c: '1966 in Bangkok',
-        d: '1970 in Bangkok',
-        correct: 'a'
+        question: 'The following are Frontend JavaSript libraries except',
+        a: 'Svelte',
+        b: 'React',
+        c: 'Express',
+        d: 'Angular',
+        correct: 'c'
     },
     {
-        question: 'East Timor, which became the 191st member of the UN, is in the continent of',
-        a: 'Asia',
-        b: 'Africa',
-        c: 'Europe',
-        d: 'South America',
-        correct: 'a'
+        question: 'GTA V was developed by',
+        a: 'Ubisoft',
+        b: 'Rockstar',
+        c: 'Santa Monica Studio',
+        d: 'Konami',
+        correct: 'b'
     },
     {
-        question: 'First Afghan War took place in',
-        a: '1839',
-        b: '1843',
-        c: '1833',
-        d: '1848',
+        question: '____ is the language of science',
+        a: 'Mathematics',
+        b: 'Physics',
+        c: 'Chemisrty',
+        d: 'English',
         correct: 'a'
     },
     {
@@ -96,7 +96,7 @@ submit_btn = document.querySelector('#submit');
 renderQuestion();
 submit_btn.addEventListener('click', submit);
 
-function mark () {
+function mark() {
     const opts = document.querySelectorAll('input[type=radio]');
     opts.forEach(opt => {
         if (opt.checked) {
@@ -107,14 +107,14 @@ function mark () {
     })
 }
 
-function uncheckOptions () {
+function uncheckOptions() {
     const opts = document.querySelectorAll('input[type=radio]');
     opts.forEach(opt => {
         opt.checked = false;
     })
 }
 
-function renderQuestion () {
+function renderQuestion() {
     if (i === quizData.length - 1) {
         submit_btn.removeEventListener('click', submit);
         container.innerHTML = `You scored ${score}/${quizData.length}`;
@@ -139,7 +139,7 @@ function renderQuestion () {
     }  
 }
 
-function submit () {
+function submit() {
     mark();
     renderQuestion();
     uncheckOptions();
