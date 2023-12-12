@@ -8,6 +8,10 @@
 body{
     background-color: #e1e1e1;
     text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h1{

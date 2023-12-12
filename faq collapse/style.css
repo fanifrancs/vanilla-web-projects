@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+*{
+    font-family: 'Comic Neue', cursive;
+}
+
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 div {
     margin: auto;
     text-align: center;
@@ -5,6 +18,7 @@ div {
     padding: 10px;
     border-radius: 10px;
     border: 1px solid gray;
+    cursor: pointer;
 }
 
 .show{
