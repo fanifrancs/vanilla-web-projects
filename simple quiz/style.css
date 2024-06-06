@@ -11,7 +11,7 @@ body{
     align-items: center;
     margin: 0 auto;
     min-height: 100vh;
-    background-color: crimson;
+    background-color: gray;
 }
 
 p{
@@ -22,8 +22,7 @@ p{
 div{
     background-color: #f0f8ff;
     padding: 20px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-radius: 10px 10px 0 0;
     width: 350px;
 }
 

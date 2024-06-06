@@ -32,7 +32,7 @@ const quizData = [
         correct: 'd'
     },
     {
-        question: 'The following are Frontend JavaSript libraries except',
+        question: 'The following are Frontend JavaSript libraries/frameworks except',
         a: 'Svelte',
         b: 'React',
         c: 'Express',
@@ -115,6 +115,10 @@ function uncheckOptions() {
 }
 
 function renderQuestion() {
+    if (i === quizData.length - 2) {
+        submit_btn.value = 'Submit';
+    }
+    
     if (i === quizData.length - 1) {
         submit_btn.removeEventListener('click', submit);
         container.innerHTML = `You scored ${score}/${quizData.length}`;
@@ -136,7 +140,7 @@ function renderQuestion() {
                 submit_btn.style.display = 'block';
             })
         })
-    }  
+    }
 }
 
 function submit() {
