@@ -172,10 +172,10 @@ const quotes = [
 ]
 
 const 
-inputfield = document.querySelector('textarea'),
+inputfield = document.querySelector('.input'),
 randomQuoteBtn = document.querySelector('#random'),
 copyBtn = document.querySelector('#copy'),
-out = document.querySelector('tt');
+out = document.querySelector('.output');
 
 // event listeners
 inputfield.addEventListener('input', translate);
@@ -202,9 +202,9 @@ function translate() {
             outputValuesArray.push(z + y);
         }
     })
-    out.innerText = outputValuesArray.join(' ');
-    if (out.innerText == '') {
-        out.innerText = 'Type something in the above area...'
+    out.innerHTML = outputValuesArray.join(' ');
+    if (inputfield.value == '') {
+        out.innerHTML = 'start typing above'
     }
 }
 
@@ -216,7 +216,7 @@ function randomTranslation() {
 
 async function copy() {
     try {
-        await navigator.clipboard.writeText(out.innerText);
+        await navigator.clipboard.writeText(out.innerHTML);
         alert('Copied to clipboard.');
     } catch (error) {
         alert(error);

@@ -12,10 +12,6 @@ body{
     max-width: 500px;
 }
 
-.container{
-    display: flex;
-}
-
 button{
     float: right;
     margin: 6px;
@@ -34,7 +30,7 @@ h2{
     color: whitesmoke;
 }
 
-textarea{
+.input{
     margin: 0 auto;
     width: 100%;
     resize: none;
@@ -42,15 +38,18 @@ textarea{
     padding: 10px;
 }
 
-textarea:focus{
+.input:focus{
     border: 3px solid black;
     outline: none;
 }
 
-#geekoutput{
+.output{
+    margin: 0 auto;
+    width: 100%;
     background-color: black;
     color: #54FE55;
-    padding: 12px;
+    resize: none;
+    padding: 10px;
     border-radius: 5px;
     font-size: medium;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
